@@ -142,4 +142,8 @@ LOGIN_URL = '/users/login/'
 
 # Sending emails
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.yandex.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'serverstor@yandex.ru'
+EMAIL_HOST_PASSWORD = '####'
+EMAIL_USE_SSL = True
