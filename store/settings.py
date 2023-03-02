@@ -152,7 +152,7 @@ LOGIN_URL = '/users/login/'
 EMAIL_HOST = 'smtp.yandex.com'
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'serverstor@yandex.ru'
-EMAIL_HOST_PASSWORD = '####'
+EMAIL_HOST_PASSWORD = '#'
 EMAIL_USE_SSL = True
 
 # OAuth
